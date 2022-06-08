@@ -4,12 +4,13 @@
         <div class="space-y-2">
             <div class="text-center text-[#0D3851] space-y-2">
                 <h1 class="font-sans font-medium text-lg xl:text-xl uppercase">
-                    Você já se perguntou como poderia <span class="font-bold">lucrar muito no conforto de sua casa?</span>
+                    Você já se perguntou como poderia <span class="font-bold">lucrar muito no conforto de sua
+                        casa?</span>
                 </h1>
                 <p class="font-sans font-medium text-xl xl:text-lg">
                     Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que
-                    aprendi ao trabalhar com clientes e que já me fizeram faturar incríveis
-                    <span class="font-bold">R$6279,20</span> em um único mês.
+                    aprendi ao trabalhar com diversos com clientes, e que me fazem 
+                    <span class="font-bold">faturar mais de R$2000,00</span> todos os meses.
                 </p>
             </div>
             <div class="text-center">

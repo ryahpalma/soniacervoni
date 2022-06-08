@@ -19828,7 +19828,9 @@ var staticRenderFns = [
               [
                 _vm._v("\n                Você já se perguntou como poderia "),
                 _c("span", { staticClass: "font-bold" }, [
-                  _vm._v("lucrar muito no conforto de sua casa?"),
+                  _vm._v(
+                    "lucrar muito no conforto de sua\n                    casa?"
+                  ),
                 ]),
               ]
             ),
@@ -19838,10 +19840,12 @@ var staticRenderFns = [
               { staticClass: "font-sans font-medium text-xl xl:text-lg" },
               [
                 _vm._v(
-                  "\n                Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que\n                aprendi ao trabalhar com clientes e que já me fizeram faturar incríveis\n                "
+                  "\n                Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que\n                aprendi ao trabalhar com diversos com clientes, e que me fazem \n                "
                 ),
-                _c("span", { staticClass: "font-bold" }, [_vm._v("R$6279,20")]),
-                _vm._v(" em um único mês.\n            "),
+                _c("span", { staticClass: "font-bold" }, [
+                  _vm._v("faturar mais de R$2000,00"),
+                ]),
+                _vm._v(" todos os meses.\n            "),
               ]
             ),
           ]),
