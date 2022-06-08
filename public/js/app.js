@@ -19840,10 +19840,10 @@ var staticRenderFns = [
               { staticClass: "font-sans font-medium text-xl xl:text-lg" },
               [
                 _vm._v(
-                  "\n                Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que\n                aprendi ao trabalhar com diversos com clientes, e que me fazem \n                "
+                  "\n                Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que\n                aprendi ao trabalhar com diversos clientes, e que me fazem \n                "
                 ),
                 _c("span", { staticClass: "font-bold" }, [
-                  _vm._v("faturar mais de R$2000,00"),
+                  _vm._v("faturar mais de R$2.000,00"),
                 ]),
                 _vm._v(" todos os meses.\n            "),
               ]
@@ -20079,7 +20079,7 @@ var render = function () {
             [
               _c("img", {
                 attrs: {
-                  src: "/img/engine/logo-white-green.webp",
+                  src: "/img/engine/logo-white.webp",
                   alt: "Sonia Cervoni Home",
                 },
               }),
