@@ -10,7 +10,7 @@
                 <p class="font-sans font-medium text-xl xl:text-lg">
                     Se sim, então este curso é para você. O curso de Mesa Posta lhe ensinará todas as técnicas que
                     aprendi ao trabalhar com diversos clientes, e que me fazem 
-                    <span class="font-bold">faturar mais de R$2000,00</span> todos os meses.
+                    <span class="font-bold">faturar mais de R$2.000,00</span> todos os meses.
                 </p>
             </div>
             <div class="text-center">

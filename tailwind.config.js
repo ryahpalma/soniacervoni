@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        barlow: ["Barlow"],
-        'barlow-condensed': ["Barlow Condensed"]
+        barlow: ["Barlow", "Helvetica", "Inter", "Arial", "sans-serif"],
+        "barlow-condensed": ["Barlow Condensed", "Helvetica", "Inter", "Arial", "sans-serif"]
       },
       colors: {
         red: {
