@@ -20170,7 +20170,7 @@ var staticRenderFns = [
               target: "_blank",
             },
           },
-          [_c("i", { staticClass: "bx bx-md bxl-facebook-circle" })]
+          [_c("i", { staticClass: "bx bx-md bxl-facebook" })]
         ),
         _vm._v(" "),
         _c(
@@ -20184,6 +20184,19 @@ var staticRenderFns = [
             },
           },
           [_c("i", { staticClass: "bx bx-md bxl-instagram" })]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "text-white transition-colors duration-300 hover:text-orange-accent-400",
+            attrs: {
+              href: "https://www.tiktok.com/@soniacervoni",
+              target: "_blank",
+            },
+          },
+          [_c("i", { staticClass: "bx bx-md bxl-tiktok" })]
         ),
         _vm._v(" "),
         _c(

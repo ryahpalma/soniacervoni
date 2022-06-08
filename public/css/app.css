@@ -492,19 +492,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-evenly{
   justify-content: space-evenly;
 }
-.gap-9{
-  gap: 2.25rem;
-}
-.gap-4{
-  gap: 1rem;
-}
 .gap-5{
   gap: 1.25rem;
-}
-.space-x-5 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
@@ -911,12 +900,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
   .md\:justify-between{
     justify-content: space-between;
-  }
-  .md\:gap-9{
-    gap: 2.25rem;
-  }
-  .md\:gap-7{
-    gap: 1.75rem;
   }
   .md\:gap-8{
     gap: 2rem;

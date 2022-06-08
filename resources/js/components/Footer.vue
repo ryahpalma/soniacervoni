@@ -23,11 +23,15 @@
                 <div class="flex items-center mt-4 space-x-4 mx-auto sm:mt-0 lg:mx-0">
                     <a href="https://facebook.com/MesaPostaSoniaCervoni/" target="_blank"
                         class="text-white transition-colors duration-300 hover:text-orange-accent-400">
-                        <i class='bx bx-md bxl-facebook-circle'></i>
+                        <i class='bx bx-md bxl-facebook'></i>
                     </a>
                     <a href="https://www.instagram.com/soniacervoni/" target="_blank"
                         class="text-white transition-colors duration-300 hover:text-orange-accent-400">
                         <i class='bx bx-md bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@soniacervoni" target="_blank"
+                        class="text-white transition-colors duration-300 hover:text-orange-accent-400">
+                        <i class='bx bx-md bxl-tiktok'></i>
                     </a>
                     <a href="https://www.youtube.com/channel/UCKghN4xT5y_Qp6EraQgettA" target="_blank"
                         class="text-white transition-colors duration-300 hover:text-orange-accent-400">
