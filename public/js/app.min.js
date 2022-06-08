@@ -2168,6 +2168,7 @@ window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
 Vue.component('navbar-component', (__webpack_require__(/*! ./components/Navbar.vue */ "./resources/js/components/Navbar.vue")["default"]));
 Vue.component('footer-component', (__webpack_require__(/*! ./components/Footer.vue */ "./resources/js/components/Footer.vue")["default"]));
 Vue.component('coursethanks-component', (__webpack_require__(/*! ./components/CourseThanks.vue */ "./resources/js/components/CourseThanks.vue")["default"]));
+Vue.component('aboutme-component', (__webpack_require__(/*! ./components/AboutMe.vue */ "./resources/js/components/AboutMe.vue")["default"]));
 var app = new Vue({
   el: '#app'
 });
@@ -19624,6 +19625,43 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./resources/js/components/AboutMe.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/components/AboutMe.vue ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AboutMe.vue?vue&type=template&id=0b471cea& */ "./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__.render,
+  _AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/AboutMe.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/CourseThanks.vue":
 /*!**************************************************!*\
   !*** ./resources/js/components/CourseThanks.vue ***!
@@ -19735,6 +19773,23 @@ component.options.__file = "resources/js/components/Navbar.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AboutMe_vue_vue_type_template_id_0b471cea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./AboutMe.vue?vue&type=template&id=0b471cea& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/CourseThanks.vue?vue&type=template&id=784df4af&":
 /*!*********************************************************************************!*\
   !*** ./resources/js/components/CourseThanks.vue?vue&type=template&id=784df4af& ***!
@@ -19782,6 +19837,118 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Navbar.vue?vue&type=template&id=6dde423b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AboutMe.vue?vue&type=template&id=0b471cea& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "bg-[#8CEAC8]" }, [
+    _c(
+      "div",
+      {
+        staticClass:
+          "px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 lg:py-10",
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "flex flex-col items-stretch gap-5 md:flex-row md:justify-between md:gap-8 lg:justify-center",
+          },
+          [
+            _c("div", { staticClass: "basis-4/12 order-last lg:order-none" }, [
+              _c(
+                "figure",
+                {
+                  staticClass:
+                    "w-[14rem] sm:w-[15rem] md:w-[18rem] lg:w-full mx-auto",
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/img/content/sonia/sonia-orange-circle_WH_550x660px.webp",
+                      alt: "Autora do Mesa Posta",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _vm._m(0),
+          ]
+        ),
+      ]
+    ),
+  ])
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "basis-4/12 self-center font-barlow-condensed text-center md:text-left md:basis-6/12 lg:basis-4/12",
+      },
+      [
+        _c(
+          "h1",
+          {
+            staticClass:
+              "font-semibold uppercase mb-1 text-black text-4xl lg:mb-2 lg:text-6xl",
+          },
+          [_vm._v("Sonia\n                    Cervoni")]
+        ),
+        _vm._v(" "),
+        _c(
+          "h3",
+          {
+            staticClass:
+              "font-semibold uppercase text-[#2A956E] mb-5 text-md md:text-md xl:text-lg",
+          },
+          [
+            _vm._v(
+              "\n                    Especialista em Mesa Posta, Porta-guardanapos & Decoração de Natal"
+            ),
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "p",
+          {
+            staticClass:
+              "font-medium text-gray-900 text-lg xl:text-xl md:max-w-xs lg:md:max-w-md",
+          },
+          [
+            _vm._v(
+              "\n                    Formada em magistério e pedagogia, desde a juventude demonstrei paixão por decorações e\n                    artesanatos, enquanto estava na 8ª série já tinha participação nas decorações. E no meu curso de\n                    magistério não foi diferente, cuidava das decorações e até mesmo das roupas das formandas. E\n                    durante estes anos me aprimorei e me desenvolvi profissionalmente com Decorações,\n                    Porta-Guardanapos e Mesa Posta. Hoje o meu objetivo é ensinar a todos, em poucas semanas, todas\n                    as técnicas que aprendi nesses 30 anos.\n                "
+            ),
+          ]
+        ),
+      ]
+    )
+  },
+]
+render._withStripped = true
+
 
 
 /***/ }),
