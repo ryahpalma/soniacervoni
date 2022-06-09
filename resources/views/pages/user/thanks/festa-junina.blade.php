@@ -23,7 +23,7 @@
                                 Seu molde já<br>está a caminho.
                             </h2>
                             <p class="font-sans text-white font-medium text-xl mb-8 md:text-xl">
-                                Verifique seu e-mail para baixa-lo!
+                                Abra seu e-mail para baixar o arquivo!
                             </p>
                         </div>
                     </div>
