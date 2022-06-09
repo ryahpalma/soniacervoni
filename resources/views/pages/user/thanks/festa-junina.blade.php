@@ -22,15 +22,9 @@
                                 class="font-barlow-condensed text-yellow-600 font-extrabold mb-4 uppercase text-2xl lg:text-4xl">
                                 Seu molde já<br>está a caminho.
                             </h2>
-                            <p class="font-sans text-white font-medium text-md mb-8 md:text-lg">
-                                Ele já deve ter chegado em seu email. Imprima e acompanhe meu Instagram para saber como
-                                recortar e montar.
+                            <p class="font-sans text-white font-medium text-xl mb-8 md:text-xl">
+                                Verifique seu e-mail para baixa-lo!
                             </p>
-                            <a href="https://www.instagram.com/soniacervoni/" class="inline-flex items-center 
-                            justify-center h-12 px-4 py-2 text-md font-bold text-center text-white 
-                            bg-orange-accent-800 rounded-full hover:bg-orange-accent-40 uppercase lg:px-2 lg:text-lg">
-                                Quero preparar agora!
-                            </a>
                         </div>
                     </div>
                 </div>
