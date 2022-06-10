@@ -149,7 +149,7 @@
                             Divirta-se e comemore este feriado!
                         </span>
                         <br>
-                        faça próprio porta-guardanapos de balão. É fácil de fazer e é
+                        faça seu próprio porta-guardanapos de balão. É fácil de fazer e é
                         uma ótima maneira de criar uma peça central única para sua mesa de festa junina.
                         Garanta já seu molde preenchendo o formulário!
                 </section>
