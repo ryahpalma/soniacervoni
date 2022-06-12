@@ -62,7 +62,8 @@
                             </h1>
                         </div>
                         <div id="mauticform_wrapper_moldesfestajunina" class="mt-2">
-                            <form role="form" method="post" action="https://marketing.ryahpalma.dev/form/submit?formId=1"
+                            <form role="form" method="post"
+                                action="https://marketing.ryahpalma.dev/form/submit?formId=1"
                                 id="mauticform_moldesfestajunina" data-mautic-form="moldesfestajunina"
                                 enctype="multipart/form-data">
                                 <div class="space-y-4" data-mautic-form-page="1">
@@ -132,7 +133,7 @@
                                         Relaxa, não enviamos spam.
                                     </p>
                                     <input type="hidden" name="mauticform[formId]" id="mauticform_moldesfestajunina_id"
-                                        value="4">
+                                        value="1">
                                     <input type="hidden" name="mauticform[return]"
                                         id="mauticform_moldesfestajunina_return" value="">
                                     <input type="hidden" name="mauticform[formName]"
