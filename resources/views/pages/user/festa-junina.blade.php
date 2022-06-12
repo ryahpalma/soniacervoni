@@ -2,8 +2,6 @@
 
 @push('custom-css')
 <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
-<link href="{{asset('img/content/sonia/sonia-cropped-headline_WH_668x639px.webp')}}" rel="preload" as="image">
-<link href="{{asset('img/content/sonia/sonia-orange_WH_800x1000px.webp')}}" rel="preload" as="image">
 @endpush
 
 @section('content')
@@ -16,22 +14,21 @@
                 <div class="mb-2 lg:max-w-lg lg:px-5 lg:mb-0">
                     <div class="lg:max-w-xl">
                         <div class="lg:max-w-[20rem]">
-                            <figure
-                                class="hidden lg:block mx-auto w-[9rem] sm:w-[15rem] md:w-[20rem] lg:w-[15rem] xl:w-[20rem]">
-                                <img :src="'/img/content/festa-junina/mold-type_WH_600x300px.webp'"
-                                    alt="Molde Festa Junina">
-                            </figure>
-                            <figure
-                                class="block lg:hidden mx-auto w-[9rem] sm:w-[15rem] md:w-[20rem] lg:w-[15rem] xl:w-[20rem]">
+                            <picture>
+                                <source :srcset="'/img/content/festa-junina/mold-type_WH_600x300px.webp'"
+                                    class="mx-auto w-[9rem] sm:w-[15rem] md:w-[20rem] lg:w-[15rem] xl:w-[20rem]"
+                                    media="(min-width: 1024px)">
                                 <img :src="'/img/content/festa-junina/mold-type-logo_WH_800x510px.webp'"
-                                    alt="Molde Festa Junina">
-                            </figure>
+                                    class="mx-auto w-[9rem] sm:w-[15rem] md:w-[20rem] lg:w-[15rem] xl:w-[20rem]"
+                                    alt="Festa Junina" decoding="async">
+                            </picture>
                         </div>
                         <div>
-                            <figure class="my-7 hidden lg:block w-[20rem]">
-                                <img :src="'/img/content/festa-junina/headline-mold_WH_668x173px.webp'"
-                                    alt="Headline Festa Junina">
-                            </figure>
+                            <picture>
+                                <source :srcset="'/img/content/festa-junina/headline-mold_WH_668x173px.webp'"
+                                     media="(min-width: 1024px)">
+                                    <img class="lg:my-7 lg:w-[20rem]" src="" alt="">
+                            </picture>
                             <p class="max-w-sm my-7 hidden font-barlow-condensed font-semibold text-md text-gray-900 
                             uppercase md:text-2xl lg:block">
                                 <span class="text-green-accent-800 font-extrabold">
@@ -47,10 +44,14 @@
                 </div>
             </div>
             <div class="grid content-end">
-                <img class="hidden lg:block w-[9rem] 'mx-auto lg:mx-0 md:w-[12rem] lg:w-[22rem] xl:w-[22rem]"
-                    :src="'/img/content/sonia/sonia-orange_WH_800x1000px.webp'" alt="Sonia Cervoni">
-                <img class="block lg:hidden w-[17rem] mx-auto lg:mx-0 md:w-[19rem] lg:w-[22rem] xl:w-[22rem]"
-                    :src="'/img/content/sonia/sonia-cropped-headline_WH_668x639px.webp'" alt="Sonia Cervoni">
+                <picture>
+                    <source :srcset="'/img/content/sonia/sonia-orange_WH_800x1000px.webp'"
+                        class=" w-[9rem] mx-auto lg:mx-0 md:w-[12rem] lg:w-[22rem] xl:w-[22rem]"
+                        media="(min-width: 1024px)">
+                    <img :src="'/img/content/sonia/sonia-cropped-headline_WH_668x639px.webp'"
+                        class="w-[17rem] mx-auto lg:mx-0 md:w-[19rem] lg:w-[22rem] xl:w-[22rem]" alt="Sonia Cervoni"
+                        decoding="async">
+                </picture>
             </div>
             <div class="basis-4/12 lg:px-3 xl:px-6 lg:pt-5">
                 <section id="form" class="max-w-xl py-2 lg:py-6 px-4 drop-shadow-lg mx-auto bg-white border-2

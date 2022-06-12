@@ -5,7 +5,7 @@
                 <div class="mx-auto md:max-w-md lg:mx-0">
                     <a href="/" aria-label="Início" title="Sonia Cervoni Home" class="inline-flex items-center">
                         <figure class="w-[10rem]">
-                            <img :src="'/img/engine/logo-white.webp'" alt="Logotipo">
+                            <img :src="'/img/engine/logo-white.webp'" alt="Logotipo" loading="lazy">
                         </figure>
                     </a>
                 </div>

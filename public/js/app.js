@@ -19874,7 +19874,7 @@ var render = function () {
           [
             _c("div", { staticClass: "basis-4/12 order-last lg:order-none" }, [
               _c(
-                "figure",
+                "picture",
                 {
                   staticClass:
                     "w-[14rem] sm:w-[15rem] md:w-[18rem] lg:w-full mx-auto",
@@ -19884,6 +19884,7 @@ var render = function () {
                     attrs: {
                       src: "/img/content/sonia/sonia-orange-circle_WH_550x660px.webp",
                       alt: "Autora do Mesa Posta",
+                      loading: "lazy",
                     },
                   }),
                 ]
@@ -20089,6 +20090,7 @@ var render = function () {
                       attrs: {
                         src: "/img/engine/logo-white.webp",
                         alt: "Logotipo",
+                        loading: "lazy",
                       },
                     }),
                   ]),

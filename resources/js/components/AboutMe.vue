@@ -4,10 +4,10 @@
             <div
                 class="flex flex-col items-stretch gap-5 md:flex-row md:justify-between md:gap-8 lg:justify-center">
                 <div class="basis-4/12 order-last lg:order-none">
-                    <figure class="w-[14rem] sm:w-[15rem] md:w-[18rem] lg:w-full mx-auto">
+                    <picture class="w-[14rem] sm:w-[15rem] md:w-[18rem] lg:w-full mx-auto">
                         <img :src="'/img/content/sonia/sonia-orange-circle_WH_550x660px.webp'"
-                            alt="Autora do Mesa Posta">
-                    </figure>
+                            alt="Autora do Mesa Posta" loading="lazy">
+                    </picture>
                 </div>
                 <div
                     class="basis-4/12 self-center font-barlow-condensed text-center md:text-left md:basis-6/12 lg:basis-4/12">
