@@ -21,18 +21,32 @@ class MainController extends Controller
         return view('pages.user.mesa-posta');
     }
 
-    public function MoldesFestaJunina()
+    public function MoldeBalao()
     {
         SEOTools::setTitle('Molde Porta Guardanapo de Balão');
         SEOTools::setDescription('Está em dúvida de como fazer lembrancinhas de festa junina? Faça hoje mesmo seu próprio porta-guardanapos de balão para a sua festa de arraiá!');
-        SEOTools::opengraph()->setUrl('https://wwww.soniacervoni.com/moldes-festa-junina');
-        SEOTools::setCanonical('https://wwww.soniacervoni.com/moldes-festa-junina');
+        SEOTools::opengraph()->setUrl('https://wwww.soniacervoni.com/molde-pg-balao-festa-junina');
+        SEOTools::setCanonical('https://wwww.soniacervoni.com/molde-pg-balao-festa-junina');
         SEOTools::opengraph()->addProperty('type', 'articles');
         SEOTools::jsonLd()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-desktop.jpg');
         SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
         SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
-        return view('pages.user.festa-junina');
+        return view('pages.user.capture.festa-junina.ballon');
+    }
+
+    public function MoldeEspantalho()
+    {
+        SEOTools::setTitle('Molde Porta Guardanapo de Espantalho');
+        SEOTools::setDescription('Está em dúvida de como fazer lembrancinhas de festa junina? Faça hoje mesmo seu próprio porta-guardanapos de espantalho para a sua festa de arraiá!');
+        SEOTools::opengraph()->setUrl('https://wwww.soniacervoni.com/molde-pg-espantalho-festa-junina');
+        SEOTools::setCanonical('https://wwww.soniacervoni.com/molde-pg-espantalho-festa-junina');
+        SEOTools::opengraph()->addProperty('type', 'articles');
+        SEOTools::jsonLd()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+
+        return view('pages.user.capture.festa-junina.strawman');
     }
 
     public function MoldesFestaJuninaObrigado()
@@ -46,7 +60,7 @@ class MainController extends Controller
         SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
         SEOTools::opengraph()->addImage('https://wwww.soniacervoni.com/img/engine/soniacervoni-opengraph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
-        return view('pages.user.thanks.festa-junina');
+        return view('pages.user.capture.festa-junina.thanks');
     }
 
     public function PrivacyPolicy()

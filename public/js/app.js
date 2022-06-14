@@ -20251,7 +20251,7 @@ var render = function () {
           _c(
             "a",
             {
-              staticClass: "inline-flex items-center mx-auto w-28",
+              staticClass: "inline-flex items-center mx-auto w-24",
               attrs: {
                 href: "/",
                 "aria-label": "Sonia Cervoni Home",

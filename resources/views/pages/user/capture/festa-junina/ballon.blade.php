@@ -7,7 +7,7 @@
 @section('content')
 <navbar-component class="bg-orange-accent-800 hidden md:block"></navbar-component>
 <section
-    class="bg-[#8CEAC8] bg-[url('/img/content/festa-junina/bg-festa-junina.webp')] bg-center bg-no-repeat bg-cover bg-local">
+    class="bg-[#8CEAC8] bg-[url('/img/content/festa-junina/background-1.webp')] bg-center bg-no-repeat bg-cover bg-local">
     <div class="px-4 pt-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl sm:px-24 md:px-24 lg:px-0 lg:pt-20">
         <div class="flex flex-col justify-evenly lg:flex-row">
             <div class="basis-4/12 px-5">
@@ -26,8 +26,8 @@
                         <div>
                             <picture>
                                 <source :srcset="'/img/content/festa-junina/headline-mold_WH_668x173px.webp'"
-                                     media="(min-width: 1024px)">
-                                    <img class="lg:my-7 lg:w-[20rem]" src="" alt="">
+                                    media="(min-width: 1024px)">
+                                <img class="lg:my-7 lg:w-[20rem]" src="" alt="">
                             </picture>
                             <p class="max-w-sm my-7 hidden font-barlow-condensed font-semibold text-md text-gray-900 
                             uppercase md:text-2xl lg:block">
@@ -58,22 +58,22 @@
                  border-gray-400 rounded-lg md:px-7">
                     <div>
                         <div class="text-center text-[#1A3D1A]">
-                            <h1 class="font-barlow-condensed font-extrabold uppercase text-2xl xl:text-2xl">
-                                Preencha o formulário <br class="block lg:hidden">para receber o molde
+                            <h1 class="font-barlow-condensed font-extrabold uppercase text-xl">
+                                Preencha o formulário para receber o molde
                             </h1>
                         </div>
-                        <div id="mauticform_wrapper_moldesfestajunina" class="mt-2">
+                        <div id="mauticform_wrapper_moldebalao" class="mt-2">
                             <form role="form" method="post"
                                 action="https://marketing.ryahpalma.dev/form/submit?formId=1"
-                                id="mauticform_moldesfestajunina" data-mautic-form="moldesfestajunina"
+                                id="mauticform_moldebalao" data-mautic-form="moldebalao"
                                 enctype="multipart/form-data">
                                 <div class="space-y-4" data-mautic-form-page="1">
-                                    <div id="mauticform_moldesfestajunina_nome" data-validate="nome"
+                                    <div id="mauticform_moldebalao_nome" data-validate="nome"
                                         data-validation-type="text">
-                                        <label for="mauticform_input_moldesfestajunina_nome"
+                                        <label for="mauticform_input_moldebalao_nome"
                                             class="block text-sm font-medium text-black">Nome*</label>
                                         <div class="mt-1">
-                                            <input id="mauticform_input_moldesfestajunina_nome" name="mauticform[nome]"
+                                            <input id="mauticform_input_moldebalao_nome" name="mauticform[nome]"
                                                 value="" type="text" autocomplete="name" required
                                                 placeholder="Coloque aqui seu nome" class="block w-full px-5 py-1 text-sm md:text-base 
                                           placeholder-gray-500 border border-transparent rounded-lg bg-gray-100 focus:outline-none
@@ -81,27 +81,26 @@
                                             focus:ring-offset-gray-300">
                                         </div>
                                     </div>
-                                    <div id="mauticform_moldesfestajunina_whatsapp" data-validate="whatsapp"
+                                    <div id="mauticform_moldebalao_whatsapp" data-validate="whatsapp"
                                         data-validation-type="tel">
-                                        <label id="mauticform_input_moldesfestajunina_whatsapp"
+                                        <label id="mauticform_input_moldebalao_whatsapp"
                                             class="block text-sm font-medium text-black">WhatsApp</label>
                                         <div class="mt-1">
-                                            <input id="mauticform_input_moldesfestajunina_whatsapp"
+                                            <input id="mauticform_input_moldebalao_whatsapp"
                                                 name="mauticform[whatsapp]" value="" type="number"
-                                                autocomplete="tel-national" required
-                                                placeholder="Coloque aqui seu WhatsApp"
+                                                autocomplete="tel-national" placeholder="Coloque aqui seu WhatsApp"
                                                 class="block w-full px-5 py-1 text-sm md:text-base placeholder-gray-500 
                                                 border border-transparent rounded-lg bg-gray-100 focus:outline-none focus:border-transparent 
                                                 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300">
                                         </div>
                                     </div>
-                                    <div id="mauticform_moldesfestajunina_email" data-validate="email"
+                                    <div id="mauticform_moldebalao_email" data-validate="email"
                                         data-validation-type="email">
-                                        <label for="mauticform_input_moldesfestajunina_email"
+                                        <label for="mauticform_input_moldebalao_email"
                                             class="block text-sm font-medium text-black">E-mail*
                                         </label>
                                         <div class="mt-1">
-                                            <input id="mauticform_input_moldesfestajunina_email"
+                                            <input id="mauticform_input_moldebalao_email"
                                                 name="mauticform[email]" value="" type="email"
                                                 autocomplete="current-password" required
                                                 placeholder="Coloque aqui seu e-mail" class="block w-full px-5 py-1 
@@ -111,7 +110,7 @@
                                             focus:ring-offset-2 focus:ring-offset-gray-300">
                                         </div>
                                     </div>
-                                    <div id="mauticform_moldesfestajunina_submit">
+                                    <div id="mauticform_moldebalao_submit">
                                         <button type="submit" class="flex items-center justify-center w-full px-3 sm:px-2 lg:px-8 py-3
                                              text-md lg:text-lg font-bold text-center text-white transition
                                              first-line:duration-500 ease-in-out transform bg-orange-accent-800 rounded-full
@@ -120,9 +119,9 @@
                                     </div>
                                     <div class="block">
                                         <div class="mt-2">
-                                            <p class="text-sm text-center">
+                                            <p class="text-xs text-center">
                                                 Ao clicar no botão e informar meus dados, estou ciente das diretrizes
-                                                das<br>
+                                                das
                                                 <a class="underline text-orange-accent-800 hover:text-black"
                                                     href="/politica-de-privacidade" target="_blank">
                                                     Políticas de Privacidade
@@ -130,15 +129,12 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <p class="text-sm text-center">
-                                        Relaxa, não enviamos spam.
-                                    </p>
-                                    <input type="hidden" name="mauticform[formId]" id="mauticform_moldesfestajunina_id"
+                                    <input type="hidden" name="mauticform[formId]" id="mauticform_moldebalao_id"
                                         value="1">
                                     <input type="hidden" name="mauticform[return]"
-                                        id="mauticform_moldesfestajunina_return" value="">
+                                        id="mauticform_moldebalao_return" value="">
                                     <input type="hidden" name="mauticform[formName]"
-                                        id="mauticform_moldesfestajunina_name" value="moldesfestajunina">
+                                        id="mauticform_moldebalao_name" value="moldebalao">
                                 </div>
                             </form>
                         </div>
