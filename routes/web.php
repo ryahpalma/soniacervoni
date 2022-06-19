@@ -14,7 +14,7 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::redirect('/', 'molde-pg-balao-festa-junina');
+Route::redirect('/', 'molde-pg-espantalho-festa-junina');
 Route::get('/contato', [MainController::class, 'Contact'])->name('user.Contact');
 Route::get('/politica-de-privacidade', [MainController::class, 'PrivacyPolicy'])->name('user.PrivacyPolicy');
 Route::get('/molde-pg-balao-festa-junina', [MainController::class, 'MoldeBalao'])->name('capture.MoldeBalao');

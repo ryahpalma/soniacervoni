@@ -25,14 +25,14 @@
                         <img class="mb-2 mx-auto w-[9rem] sm:w-[15rem] md:w-[13rem]" alt="Festa Junina"
                             :src="'/img/content/festa-junina/event-white-m_WH_250x164px.webp'" decoding="async">
                     </picture>
-                    <h1 class="mb-2 max-w-md lg:max-w-full mx-auto font-barlow-condensed font-bold text-center text-xl text-white 
-                    uppercase md:text-2xl lg:text-3xl">
+                    <h1 class="mb-2 max-w-md lg:max-w-full mx-auto font-barlow-condensed font-bold text-center text-2xl text-white 
+                    uppercase lg:text-3xl">
                         Você está pronta(o) para fazer seu porta-guardanapos de
                         <span class="bg-orange-accent-800 px-1">
                             espantalho?
                         </span>
                     </h1>
-                    <p class="font-sans font-normal text-center text-sm text-white lg:text-md">
+                    <p class="font-sans font-normal text-center text-md text-white">
                         Deixe sua mesa ainda mais linda aprendendo a fazer este porta-guardanapos de
                         espantalho. Você vai querer fazer vários!
                     </p>

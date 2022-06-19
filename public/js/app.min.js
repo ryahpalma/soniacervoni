@@ -20113,7 +20113,19 @@ var render = function () {
               _vm._v(
                 "\n                © " +
                   _vm._s(new Date().getFullYear()) +
-                  " Sonia Cervoni Home. Todos os direitos reservados.\n            "
+                  " Sonia Cervoni Home. Todos os direitos reservados -\n                "
+              ),
+              _c(
+                "a",
+                {
+                  staticClass: "hover:text-orange-accent-400",
+                  attrs: { href: "https://ryahpalma.dev", target: "_blank" },
+                },
+                [
+                  _vm._v(
+                    "\n                    Desenvolvido por Ryan Palma\n                "
+                  ),
+                ]
               ),
             ]),
             _vm._v(" "),

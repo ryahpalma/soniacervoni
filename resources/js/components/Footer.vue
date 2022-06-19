@@ -18,7 +18,10 @@
             <div class="flex flex-col justify-between pt-5 pb-10 border-t text-center items-center 
             sm:flex-row lg:text-left">
                 <p class="text-xs text-white md:text-sm">
-                    © {{ new Date().getFullYear() }} Sonia Cervoni Home. Todos os direitos reservados.
+                    © {{ new Date().getFullYear() }} Sonia Cervoni Home. Todos os direitos reservados -
+                    <a class="hover:text-orange-accent-400" href="https://ryahpalma.dev" target="_blank">
+                        Desenvolvido por Ryan Palma
+                    </a>
                 </p>
                 <div class="flex items-center mt-4 space-x-4 mx-auto sm:mt-0 lg:mx-0">
                     <a href="https://facebook.com/MesaPostaSoniaCervoni/" target="_blank"
